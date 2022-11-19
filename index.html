@@ -404,6 +404,7 @@
             </div>
         </div>       
     </footer>
+    <!-- Модалка -->
     <div class="modal-backdrop is-hidden" data-modal>
         <div class="modal">
             <div class="modal-close" data-modal-close>
@@ -459,13 +460,26 @@
                     
                 </div>
 
-                <label for="user-text" class="modal-label">Коментар</label>
-                <textarea
-                    name="user-text"
-                    id="user-text" 
-                    placeholder="Введіть текст"
-                    class="modal-textarea"
-                 ></textarea>
+                <div class="textarea-line">
+                    <label for="user-text" class="modal-label">Коментар</label>
+                    <textarea
+                        name="user-text"
+                        id="user-text" 
+                        placeholder="Введіть текст"
+                        class="modal-textarea"
+                     ></textarea>
+                </div>
+
+                <div class="form-rules">
+                    <label for="policy" class="form-policy">
+                        <input  
+                            type="checkbox" 
+                            name="policy" 
+                            id="policy"
+                            class="checkbox"> Погоджуюся з розсилкою та приймаю
+                            <a href="#" class="checkbox-link"> Умови договору</a>
+                    </label>
+                </div>
 
                 <button type="submit" class="modal-button">Відправити</button>
             </form>
