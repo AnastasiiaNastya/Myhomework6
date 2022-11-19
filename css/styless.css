@@ -894,6 +894,11 @@ fill: currentColor;
     color: rgba(117, 117, 117, 0.5);
 }
 
+
+.modal-textarea:hover{
+    border: 1px solid var(--accent-color);
+}
+
 .modal-button{
     color:var(--adress-text-color) ;
     background-color: var(--accent-color);
