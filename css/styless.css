@@ -842,8 +842,25 @@ fill: currentColor;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
     padding-bottom: 4px;
-    }
+}
 
+
+
+.input-wrapper{
+    position: relative;
+    margin-bottom: 10px;
+ }
+
+ .input-wrapper input {
+    margin-bottom: 0%;
+ }
+
+.input-icon{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .modal-textarea{
     width: 100%;
