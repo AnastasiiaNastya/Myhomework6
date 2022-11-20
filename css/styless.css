@@ -991,6 +991,27 @@ fill: currentColor;
 }
 
 
+.checkbox:checked + .policy-icon{
+    background-color: var(--accent-color);
+    border: none;
+    background-image: url(../img/icon-check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.policy-icon{
+   height: 15px;
+   width: 16px;
+   border-radius: 2px;
+   background-color: transparent;
+   border: 2px solid var(--title-text-color);
+   margin-right: 7px;
+   cursor: pointer;
+}
+
+
+
 .checkbox-link{
     font-weight: 400;
     font-size: 14px;
