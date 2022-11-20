@@ -969,6 +969,7 @@ fill: currentColor;
 .textarea-line{
     margin-bottom: 20px;
     width: 100%;
+    display: grid;
 }
 
 .form-policy{
